@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.8.1 on win32)" generated="20200129 16:15:45.895" rpa="false">
+<suite id="s1" name="GoogleSearchTest" source="C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\project\web\test\smoke\GoogleSearchTest.robot">
+<test id="s1-t1" name="Type in search query field">
+<kw name="setup driver" library="resource" type="setup">
+<msg timestamp="20200129 16:15:45.976" level="TRACE">Arguments: [  ]</msg>
+<kw name="CommonSteps.Setup driver steps">
+<msg timestamp="20200129 16:15:45.977" level="FAIL">No keyword with name 'CommonSteps.Setup driver steps' found.</msg>
+<status status="FAIL" starttime="20200129 16:15:45.977" endtime="20200129 16:15:45.977"></status>
+</kw>
+<timeout value="1 minute"></timeout>
+<status status="FAIL" starttime="20200129 16:15:45.975" endtime="20200129 16:15:45.978"></status>
+</kw>
+<kw name="destroy driver" library="resource" type="teardown">
+<msg timestamp="20200129 16:15:45.978" level="TRACE">Arguments: [  ]</msg>
+<kw name="CommonSteps.Destroy driver steps">
+<msg timestamp="20200129 16:15:45.979" level="FAIL">No keyword with name 'CommonSteps.Destroy driver steps' found.</msg>
+<status status="FAIL" starttime="20200129 16:15:45.979" endtime="20200129 16:15:45.979"></status>
+</kw>
+<msg timestamp="20200129 16:15:45.980" level="TRACE">Return: None</msg>
+<status status="FAIL" starttime="20200129 16:15:45.978" endtime="20200129 16:15:45.980">No keyword with name 'CommonSteps.Destroy driver steps' found.</status>
+</kw>
+<doc>Put Testrail link here</doc>
+<tags>
+<tag>testrailid=111</tag>
+</tags>
+<timeout value="1 minute"></timeout>
+<status status="FAIL" starttime="20200129 16:15:45.975" endtime="20200129 16:15:45.980" critical="yes">Setup failed:
+No keyword with name 'CommonSteps.Setup driver steps' found.
+
+Also teardown failed:
+No keyword with name 'CommonSteps.Destroy driver steps' found.</status>
+</test>
+<doc>Google search test</doc>
+<status status="FAIL" starttime="20200129 16:15:45.897" endtime="20200129 16:15:45.980"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1">testrailid=111</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="GoogleSearchTest">GoogleSearchTest</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20200129 16:15:45.924" level="ERROR">Error in file 'C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\project\web\resource\resource.robot': Importing test library 'C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\framework\web\browser\Browser.py' failed: ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\framework\web\browser\Browser.py", line 2, in &lt;module&gt;
+    from selenium.common.exceptions import NoSuchWindowException, TimeoutException, NoAlertPresentException
+PYTHONPATH:
+  C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\project
+  C:\Users\Nurlan.Rahimzada\AppData\Local\Programs\Python\Python38-32\Scripts\robot.exe
+  C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5
+  C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\framework
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32\python38.zip
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32\DLLs
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32\lib
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32\lib\site-packages</msg>
+<msg timestamp="20200129 16:15:45.955" level="ERROR">Error in file 'C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\project\web\resource\resource.robot': Importing test library 'C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\project\web\steps\CommonSteps.py' failed: ModuleNotFoundError: No module named 'PIL'
+Traceback (most recent call last):
+  File "C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\project\web\steps\CommonSteps.py", line 4, in &lt;module&gt;
+    from framework.utils.ScreenshotUtils import ScreenshotUtils
+  File "C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\framework\utils\ScreenshotUtils.py", line 4, in &lt;module&gt;
+    from PIL import Image
+PYTHONPATH:
+  C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\project
+  C:\Users\Nurlan.Rahimzada\AppData\Local\Programs\Python\Python38-32\Scripts\robot.exe
+  C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5
+  C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\framework
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32\python38.zip
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32\DLLs
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32\lib
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32\lib\site-packages</msg>
+<msg timestamp="20200129 16:15:45.961" level="ERROR">Error in file 'C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\project\web\resource\resource.robot': Importing test library 'C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\project\web\steps\SearchSteps.py' failed: ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\project\web\steps\SearchSteps.py", line 4, in &lt;module&gt;
+    from project.web.forms.SearchForm import SearchForm
+  File "C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\project\web\forms\SearchForm.py", line 2, in &lt;module&gt;
+    from selenium.webdriver.common.by import By
+PYTHONPATH:
+  C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\project
+  C:\Users\Nurlan.Rahimzada\AppData\Local\Programs\Python\Python38-32\Scripts\robot.exe
+  C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5
+  C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\framework
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32\python38.zip
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32\DLLs
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32\lib
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32\lib\site-packages</msg>
+<msg timestamp="20200129 16:15:45.966" level="ERROR">Error in file 'C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\project\web\resource\resource.robot': Importing test library 'C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\project\web\steps\NavigateSteps.py' failed: ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\project\web\steps\NavigateSteps.py", line 3, in &lt;module&gt;
+    from framework.web.browser.Browser import Browser
+  File "C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\framework\web\browser\Browser.py", line 2, in &lt;module&gt;
+    from selenium.common.exceptions import NoSuchWindowException, TimeoutException, NoAlertPresentException
+PYTHONPATH:
+  C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\project
+  C:\Users\Nurlan.Rahimzada\AppData\Local\Programs\Python\Python38-32\Scripts\robot.exe
+  C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5
+  C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\framework
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32\python38.zip
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32\DLLs
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32\lib
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32\lib\site-packages</msg>
+<msg timestamp="20200129 16:15:45.970" level="ERROR">Error in file 'C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\project\web\resource\resource.robot': Importing test library 'C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\project\web\steps\PageSteps.py' failed: ModuleNotFoundError: No module named 'selenium'
+Traceback (most recent call last):
+  File "C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\project\web\steps\PageSteps.py", line 3, in &lt;module&gt;
+    from project.web.pages.ResultPage import ResultPage
+  File "C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\project\web\pages\ResultPage.py", line 2, in &lt;module&gt;
+    from selenium.webdriver.common.by import By
+PYTHONPATH:
+  C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\project
+  C:\Users\Nurlan.Rahimzada\AppData\Local\Programs\Python\Python38-32\Scripts\robot.exe
+  C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5
+  C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\framework
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32\python38.zip
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32\DLLs
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32\lib
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32\lib\site-packages</msg>
+<msg timestamp="20200129 16:15:45.972" level="ERROR">Error in file 'C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\project\web\resource\resource.robot': Importing test library 'CommonSteps' failed: ModuleNotFoundError: No module named 'CommonSteps'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\project
+  C:\Users\Nurlan.Rahimzada\AppData\Local\Programs\Python\Python38-32\Scripts\robot.exe
+  C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5
+  C:\Users\Nurlan.Rahimzada\Documents\Python\selenium_robot-11c511cfb3a8ab9778da056221c171f7457dfcd5\framework
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32\python38.zip
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32\DLLs
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32\lib
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32
+  c:\users\nurlan.rahimzada\appdata\local\programs\python\python38-32\lib\site-packages</msg>
+</errors>
+</robot>
