@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 import os
-from configuration.configuration import COMMAND_EXECUTOR, DEVICE_NAME, VERSION, PLATFORM, NEW_COMMAND_TIMEOUT_SECONDS,\
+
+from configuration.configuration import COMMAND_EXECUTOR, DEVICE_NAME, VERSION, PLATFORM, NEW_COMMAND_TIMEOUT_SECONDS, \
     AUTOMATION_NAME, NO_RESET
 from framework.mobile.driver.MobileDriver import MobileDriver
+from framework.robotwrappers.RobotLogger import RobotLogger
 from framework.utils.ConfigReader import ConfigReader
 from framework.utils.ScreenshotUtils import ScreenshotUtils
-from framework.robotwrappers.RobotLogger import RobotLogger
 
 
 class BaseSteps:
