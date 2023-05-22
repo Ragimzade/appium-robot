@@ -5,7 +5,7 @@ attrs==18.2.0
 dpath==2.0.1
 Pillow
 pluggy==0.8.1
-requests==2.22.0
+requests==2.31.0
 robotframework==3.1.2
 selenium==3.141.0
 visual-logging==1.0
